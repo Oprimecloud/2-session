@@ -1,0 +1,250 @@
+<!-- #web development foundation course -->
+ <div style="background-color: rgb(255, 255, 255); padding: 20px; border-radius: 10px; max-width: 500px;">
+    <h3 style="color: #2c3e50;"> Basic Contact Form</h3>
+    
+    <form>
+        <div style="margin-bottom: 15px;">
+            <label for="fullname" style="display: block; margin-bottom: 5px;font-weight: bold; color: rgb(1, 0, 0);">Full Name:</label>
+            <input type="text" id="fullname" name="fullname"
+                    style="width: 90%; padding: 8px; border: 2px solid; border-radius: 5px;"
+                    placeholder="Enter your full name">
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label for="email" style="display: block; margin-bottom: 5px;font-weight: bold; color: rgb(0, 0, 0);">Email:</label>
+            <input type="email" id="email" name="email"
+                    style="width: 90%; padding: 8px; border: 2px solid; border-radius: 5px;"
+                    placeholder="your.email@example.com">        
+        </div> 
+        
+        <div style="margin-bottom: 15px;">
+            <label for="message" style="display: block; margin-bottom: 5px; font-weight: bold; color: black;">Message:</label>
+            <textarea id="message" name="message" rows="4" 
+                      style="width: 90%; padding: 8px; border: 2px solid #d5d5d5; border-radius: 5px;" 
+                      placeholder="Write your message here..."></textarea>
+        </div>
+
+        <button type="submit"
+                style="background-color: #084c90; color: #d5d5d5; padding: 12px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">Send Message</button>
+        </button>
+    </form>
+</div>
+
+
+
+<!-- <-- Html5 provides many input types for differrent data collection needs. -->
+<div style="background-color: #fff5f5; padding: 20px; border-radius: 10px; max-width: 600px;">
+    <h3 style="color: #e74c3c;">HTML5 Input Types Demo</h3>
+    
+    <form style="color:black;">
+        <table style="width: 100%; border-spacing: 10px;">
+            <tr>
+                <td><label for="text-input"><strong>Text:</strong></label></td>
+                <td><input type="text" id="text-input" placeholder="Regular text" 
+                           style="padding: 8px; border: 1px solid #ddd; border-radius: 4px; width: 100%;"></td>
+            </tr>
+
+            <tr>
+                <td><lable for="password-input"><strong>Password:</strong></lable></td>
+                <td><input type="password" id="password-input" placeholder="Enter password"
+                    style="padding: 8px; border: 1px solid #ddd; border-radius: 4px; width: 100%;"></td>
+            </tr>
+
+           <tr>
+                <td><label for="email-input"><strong>Email:</strong></label></td>
+                <td><input type="email" id="email-input" placeholder="user@example.com" 
+                           style="padding: 8px; border: 1px solid #ddd; border-radius: 4px; width: 100%;"></td>
+            </tr>
+            <tr>
+                <td><label for="Number"><strong>Number:</strong></td></label>
+                <td><input type="Number" id="Number-input"min="1" max="100" placeholder="1-100"
+                       style="padding: 8px; border: 1px solid #dddd; border-radius: 4px; width: 100%;"></td>
+
+            <tr>
+                <td><label for="Date"><strong>Date:</strong></label></td>
+                <td><input type="date" id="date-input"
+                    style="padding: 8px; border: #d5d5d5; border-radius: 4px; width: 100%;"></td>
+            </tr>
+                <td><label for="color-input"><strong>Color:</strong></label></td>
+                <td><input type="color" id="color-input" value="#3498db" 
+                           style="border: 1px solid #ddd; border-radius: 4px; width: 60px; height: 35px;"></td>
+            </tr>
+
+            <tr>
+                <td><label for="range"><strong>Range:</strong></label></td>
+                <td><input type="range" id="range-input" min="0" max="100" value="50"
+                            style="border: 1px solid #084c90; border-radius: 4px; width: 100%;"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+
+
+ <!-- Html5 provides many input types for differrent data collection needs. -->
+<div style="background-color: #1d7c27; padding: 20px; border-radius: 10px; max-width: 600px;">
+    <h3 sytle="color: #084c90;">HTML5 Input Types Demo</h3>
+
+    <form style="color: black;">
+        <div style="margin-bottom: 15px;">
+            <label for="text-input" style="display: block; margin-bottom: 5px;"><strong>Text:</strong></label>
+            <input type="text" id="text-input" placeholder="Regular text"
+                    style="width: 70%; padding: 8px; border: 1px solid #cf4848; border-radius: 4px;">
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label for="password-input" style="display: block; margin-bottom: 5px;"><strong>Password:</strong></label>
+            <input type="password" id="password-input" placeholder="Enter password"
+                    style="width: 70%; padding: 8px; border: 1px solid red; border-radius: 4px;">
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label for="email-input" style="display: block; margin-bottom: 5px;"><strong>Email:</strong></label>
+            <input type="email" id="email-input" placeholder="user@example.com"
+                    style="width: 70%; padding: 8px; border: 1px solid red; border-radius: 4px;">
+
+        </div>
+        
+        <div style="margin-bottom: 15px;">
+            <label for="number-input" style="display: block; margin-bottom: 5px;"><strong>Number:</strong></label>
+            <input type="number"  id="number-input" min="1" max="100" placeholder="1-100"
+                    style="width: 70%; padding: 8px; border: 1px solid red; border-radius: 4px;">
+                    
+        </div>
+        <div style="margin-bottom: 15px;"> 
+            <label for="Date-input" style="display: block; margin-bottom: 5px;"><strong>Date:</strong></label>
+            <input type="date" id="date-input" 
+                    style="width: 70%; padding: 8px; border: 1px solid red; border-radius: 4px;">
+        </div>
+
+        <div style="margin-bottom: 15px;">       
+            <label for="color-input" style="display: block; margin-bottom: 5px;"><strong>Color:</strong></label>
+            <input type="color" id="color-input"
+                    style="width: 70%; padding: 8px;  border: 1px solid red; border-radius: 4px;">
+        </div>
+        
+        <div style="margin-bottom: 15px;">
+             <label for="range-input" style="display: block; margin-bottom: 5px;"><strong>Range:</strong></label>
+             <input type="range" id="range-input" min="0" max="100" value="50" 
+                   style="width: 70%; padding: 8px;  border: 1px solid red; border-radius: 4px;">
+        </div>
+    </form>
+</div> 
+
+
+<!-- checkboxes and Radio Buttons For selecting options, use checkboxes (multiple selections) or radio buttons (single selection).-->
+<div style="background-color: #10bb69; color:black; padding: 20px; border-radius: 10px; max-width: 600px;">
+    <h3 style="color: #e80b0b;">Selection Inputs</h3>
+    
+    <form>
+        <fieldset style="border: 2px solid #ca0303; border-radius: 8px; padding: 11px; margin-bottom: 20px;">
+            <legend style="color: #ff1111;">Programming Languages (Check all that apply):</legend>
+
+                <div>
+                    <p><label><input type="checkbox"  name="Languages" value="JavaScript">JavaScript</label></p>
+                    <p><label><input type="checkbox"  name="Languages" value="Python">Python</label></p>
+                    <p><label><input type="checkbox"  name="Languages" value="java">Java</label></p>
+                    <p><label><input type="checkbox"  name="Languages" value="java">C#</label></p>
+                    <p><label><input type="checkbox"  name="Languages" value="java">PHP</label></p>
+                </div>
+        </fieldset>
+
+        <fieldset style="border: 2px solid #ca0303; border-radius: 8px; padding: 11px; margin-bottom: 20px;">
+            <legend style="color: #ff1111;">Experience Level (Select one):</legend>
+
+                <div>
+                    <p><label><input type="radio"  name="Languages" value="JavaScript">JavaScript</label></p>
+                    <p><label><input type="radio"  name="Languages" value="Python">Python</label></p>
+                    <p><label><input type="radio" name="Languages" value="java">Java</label></p>
+                    <p><label><input type="radio" name="Languages" value="java">C#</label></p>
+                    <p><label><input type="radio"  name="Languages" value="java">PHP</label></p>
+                </div>
+        </fieldset>
+
+        <div style="margin-bottom: 15px;">
+            <div label for="country" style="display: black; margin: 5px; font-weight: bold;">Country:</label>
+            <select id="country" name="country" style="width: 100%; padding: 8px; border: 2px solid #ddd; border-radius: 5px;">
+                <option value="">Selection your country</option>
+                <option value="us">United States</option>
+                <option value="us">United Kingdom</option>
+                <option value="us">Canada</option>
+                <option value="us">Nigeria</option>
+                <option value="us">Kenya</option>
+            </select>
+        </div>
+        <button type="submit" style="background-color: #084c90; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+            Submit Survey
+        </button>
+</form>
+</div>
+
+<!-- images in HTML -->
+<div style="background-color: brown; padding: 20px; border-radius: 10px;">
+    <h2 style="color: #f39c12;">Working with Images</h2>
+
+    <!--Basic Image-->
+    <div style="margin-bottom: 20px; color:black;">
+        <h4>Basic Images</h4>
+        <img src="https://images.unsplash.com/photo-1756745679685-cb39adaf511b?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="HTML Course Banner"
+            style="border-radius: 8px;  box-shadow: 0 2px 8px rgba(0,0,0,0.1); max-width: 100%; ;">
+    </div>
+
+     <!-- Image with Caption -->
+    <div style="margin-bottom: 20px; color: black">
+        <h4>Image with Caption</h4>
+        <figure style="margin: 0px; text-align: center;">
+            <img src="https://images.unsplash.com/photo-1721742147315-5b3e1ffdebac?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="web Development"
+                style="border-radius: 8px; max-width: 100%;">
+            <figcaption style="margin-top: 8px; font-style: italic; color: #0d0202;">
+                modern Interior Setting
+            </figcaption>
+        </figure>
+    </div>
+</div> 
+
+<!-- Links and Navigation
+Links connect web pages together and enable navigation. -->
+
+<div style="background-color: #f0f8ff; padding: 20px; border-radius: 10px; color: black;">
+    <h2 style="color: #2980b9;">HTML Links</h2>
+
+    <div style="margin-bottom: 25px;">
+        <h4>External Links</h4>
+        <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" taget="_blank" 
+            style="color: #3498db; text-decoration: none; border-bottom: 2px solid #3498db;">
+            MDN HTML Documentation
+        </a></p>
+        <p><a href="https://www.w3schools.com/html/" target="_blank"
+              style="color: #e74c3c; text-decoration: none; border-bottom: 2px solid #e74c3c;">
+            W3Schools HTML Tutorial
+        </a></p>
+    </div>
+
+    <div style="margin-bottom: 25px;">
+        <h4>Email and Phone Links</h4>
+        <p><a href="mailto:student@example.com" 
+              style="color: #27ae60; text-decoration: none;">
+            📧 Send Email
+        </a></p>
+        <p><a href="tel:+1234567890" 
+              style="color: #f39c12; text-decoration: none;">
+            📞 Call Us
+        </a></p>
+    </div>
+
+    <div style="margin-bottom: 25px;">
+        <h4>Internal Page Links (Anchors)</h4>
+        <p><a href="#top" style="color: #8e44ad; text-decoration: none;">Go to Top</a></p>
+        <p><a href="#summary" style="color: #8e44ad; text-decoration: none;">Jump to Summary</a></p>
+    </div>
+    <div>
+        <h4>Download Link</h4>
+        <p><a href="data:text/plain;charset=utf-8,Hello%20World!" 
+              download="sample.txt"
+              style="background-color: #34495e; color: white; padding: 8px 16px; text-decoration: none; border-radius: 4px;">
+            Download Sample File
+        </a></p>
+    </div>
+</div>

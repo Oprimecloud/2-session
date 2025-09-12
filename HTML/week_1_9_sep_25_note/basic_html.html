@@ -1,0 +1,131 @@
+<!-- # Introduction
+HTML (HyperText Markup Language) is the foundation of every website.
+It provides the structure and content that browsers display to users. 
+Think of HTML as the skeleton of a webpage 
+it defines what content appears and how it's organized. -->
+
+<!-- ## HTML Document Structure
+Every HTML document follows a standard structure with essential elements. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Page</title>
+</head>
+<body>
+    <h1>Welcome to HTML!</h1>
+    <p>This is your fisrt HTML document.</p>
+</body>
+</html>
+
+<!-- ## Structure Breakdown:
+- `<!DOCTYPE html>` - Declares this as an HTML5 document
+- `<html>` - Root element that contains all content
+- `<head>` - Contains metadata (not visible on page)
+- `<body>` - Contains visible content
+- `<title>` - Sets the page title (appears in browser tab)
+- `<h1>` - Main heading
+- `<p>` - Paragraph text -->
+
+<!-- HTML HEADINGS -->
+ <!-- HTML provides six levels of headings, from `<h1>` (largest) to `<h6>` (smallest). -->
+html 
+<h1>This is Heading 1 - Main Title</h1>
+<h2>This is Heading 2 - Section Title</h2>
+<h3>This is Heading 3 - Subtraction</h3>
+<h4>This is Heading 4 - Sub -subtraction</h4>
+<h5>This is Heading 5  - Minor heading</h5>
+<h6>This is Heading 6 - Smallest heading</h6>
+
+<!-- ## Paragraphs and Text Formatting
+Paragraphs are the building blocks of content, 
+and we can format text in various ways. -->
+
+<p>This is a normal paragraph of text.</p>
+<p>This is paragraph contains <strong>bold text</strong> and <em>italic text</em>.</p>
+<p>You can also use <b>bold</b> and <i>italic</i> tags.</p>
+<p>This text has <u>underline</u> and this has <mark>highlighting</mark>.</p>
+<p>For code, use <code>console.log('Hello World')</code> tags.</p>
+<p>Chemical formulas: H<sub>2</sub>0<sub>and equations: E=mc<sup>2</sup></p>
+<p>H<sub>2</sub><sup>20</sup></p>
+
+<!-- List in HTML -->
+<!-- HTML supports Ordered(numbered)and unordered (bulleted) list. -->
+ <h3>Unordered List (Bullets)</h3>
+ <ul>
+    <li>HTML - Structure</li>
+    <li>CSS - Styling</li>
+    <li>Javascript - Behavior</li>
+    <li>React - Framework</li>
+ </ul>
+
+ <h3>Ordered List (Numbers)</h3>
+ <ol>
+    <li>Learn HTML basics</li>
+    <li>Master CSS styling</li>
+    <li>Practice JavaScript</li>
+    <li>Build projects</li>
+ </ol>
+
+ <h3>Nested Lists</h3>
+<ul>
+    <li>Fronted Technologies</li>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+        </ul>
+    </li>
+    <li>Backend Technologies</li>
+        <ul>
+            <li>Python</li>
+            <li>Node.js</li>
+            <li>PHP</li>
+        </ul>
+    </li>
+</ul>
+
+<!-- ## HTML Attributes
+Attributes provide additional information about HTML elements. 
+They are written inside the opening tag. -->
+
+<div style="border: 2px solid blue; padding: 15px; margin: 10px;">
+    <div style="border-block: 3px solid red; padding-block:  10px; margin: 10px;">
+    <h2 id="main-title" class="header-style">Attributes Example</h2>
+
+    <p title="This tooltip appears on hovel!">Hover over this text to see a tooltip.</p>
+
+    <p style="color: red; font-size: 18px;">This text is styled with inline css.</p>
+
+    <p lang="es">Hola mundo!</p>
+
+    <div class="info-box" id="special-section">
+        <p>This div has both class and id attributes for styling and javascript targeting.</p>
+    </div>
+</div>
+
+<p><strong>Common Attributes:</strong></p>
+<ul>
+    <li><code>id</code> - Unique identifier</li>
+    <li><code>class</code> - Grouping elements for styling</li>
+    <li><code>style</code> - Inline CSS styling</li>
+    <li><code>title</code> - Tooltip text</li>
+    <li><code>lang</code> - Language specification</li>
+</ul>
+
+<div style="background-color: rgb(200, 220, 218); padding: 20px; border-radius: 10px;">
+    <h3>This is a DIV Container</h3>
+    <p>Div is a <strong>block-level</strong> element that takes up the full width available.</p>
+    <p>This paragraph contains a <span style="background-color: green; padding: 2px;">highlighted span</span> element.</p>
+    <p>Span is an <strong>inline</strong> element that only takes up as much width as necessary.</p>
+</div>
+
+<div style="background-color: black padding 15px; margin-top: 15px; border-left: 4px solid #ff6b6b;">
+    <h4>Key Differences:</h4>
+    <ul>
+        <li><strong>DIV:</strong> Block-level, creates new line, full width</li>
+        <li><strong>SPAN:</strong> Inline, stays on same line, minimal width</li>
+    </ul>
+</div>
