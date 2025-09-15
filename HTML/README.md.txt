@@ -1,2 +1,2 @@
 session-2 
-learning HTML, CSS AND JAVASCRIPT
+learning HTML, CSS AND JAVASCRIPT   
