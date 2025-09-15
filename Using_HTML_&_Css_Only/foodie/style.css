@@ -1,0 +1,385 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* space between logo and text */
+  font-weight: 700; /* optional styling */
+  font-size: 1.5rem; /* adjust size */
+}
+
+.logo-img {
+  width: 40px;  /* adjust size as needed */
+  height: auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #FFFFFF;
+  background-color: #0B0F0C;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+  padding: 20px 0;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 800;
+  color: #FFFFFF;
+}
+
+.main-nav a {
+  margin-left: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.main-nav a:hover {
+  color: #22C55E;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('images/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.hero-content h1 {
+  font-size: 64px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.hero-content .accent {
+  color: #22C55E;
+}
+
+.hero-content p {
+  font-size: 20px;
+  color: #9CA3AF;
+  margin-bottom: 30px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-buttons .btn {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 14px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  margin: 0 10px;
+}
+
+.btn-primary {
+  background-color: #22C55E;
+  color: #FFFFFF;
+}
+
+.btn-secondary {
+  background-color: #4B5563;
+  color: #FFFFFF;
+}
+
+/* Signature Section */
+.signature {
+  background-color: #111827;
+  padding: 100px 0;
+}
+
+.signature-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.signature-text {
+  flex: 1;
+  color: #FFFFFF;
+}
+
+.signature-text h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.signature-text .accent {
+  color: #22C55E;
+}
+
+.signature-text p {
+  font-size: 18px;
+  color: #D1D5DB;  /* lighter gray */
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+.signature-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+}
+
+/* Menu Section */
+.menu {
+  padding: 100px 0;
+}
+
+.menu h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.menu-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #F9FAFB;
+  color: #0B0F0C;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 20px 0 10px;
+}
+
+.card p {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 20px 20px;
+  color: #6B7280;
+}
+
+/* About Section */
+.about {
+  background-color: #0B0F0C;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.about-content h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.about-content p {
+  font-size: 20px;
+  color: #9CA3AF;
+  margin-bottom: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-content button {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 14px 30px;
+  border: none;
+  border-radius: 6px;
+  background-color: #22C55E;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+/* Testimonials Section */
+.testimonials {
+  background-color: #111827;
+  padding: 100px 0;
+}
+
+.testimonials h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.testimonial-cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.testimonial-card {
+  background-color: #1F2937;
+  border-radius: 12px;
+  color: #FFFFFF;
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+}
+
+.testimonial-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.testimonial-card .quote {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #D1D5DB;
+}
+
+.testimonial-card .customer-name {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.testimonial-card .customer-role {
+  font-size: 14px;
+  font-weight: 500;
+  color: #9CA3AF;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #0B0F0C;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 15px 20px;
+  border-radius: 6px;
+  border: 1px solid #4B5563;
+  background-color: #1F2937;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #9CA3AF;
+}
+
+.contact-form button {
+  align-self: center;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 14px 30px;
+  border: none;
+  border-radius: 6px;
+  background-color: #22C55E;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  background-color: #111827;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer p {
+  color: #9CA3AF;
+  font-size: 14px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .signature-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+  .signature-image {
+    order: -1;
+  }
+  .menu-cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .testimonial-cards {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-content h1 {
+    font-size: 42px;
+  }
+  .menu h2, .testimonials h2, .about-content h2, .signature-text h2 {
+    font-size: 36px;
+  }
+  .hero-content p, .signature-text p, .about-content p {
+    font-size: 16px;
+  }
+  .btn {
+    font-size: 14px;
+    padding: 12px 24px;
+  }
+  .main-nav a {
+    font-size: 14px;
+    margin-left: 20px;
+  }
+}
